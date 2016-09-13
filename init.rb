@@ -1,6 +1,7 @@
 require 'redmine'
 
 require_dependency 'redmine_slack/listener'
+require_dependency 'redmine_slack/mail_handler_patch'
 
 Redmine::Plugin.register :redmine_slack do
 	name 'Redmine Slack'
